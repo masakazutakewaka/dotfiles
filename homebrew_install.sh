@@ -19,7 +19,6 @@ formulas=(
     curl
     tree
     openssl
-    #z
     colordiff
     #"--without-etcdir zsh"
     zsh-completions
@@ -27,26 +26,26 @@ formulas=(
     cask
     #ansible
     peco
+    ghq
     hub
     tig
     node
+    yarn
     python3
-    #lua
-    #"vim --with-lua"
     mysql
     postgresql
     sqlite
+    redis
+    memcached
+    elasticsearch
+    solr
     #"php55 --homebrew-apxs"
     #httpd22
-    #ricty
     #composer
     #markdown
     ctags
     #ssh-copy-id
-    #phantomjs
     mecab
-    #diff-so-fancy
-    #thefuck
 )
 
 "brew tap..."
