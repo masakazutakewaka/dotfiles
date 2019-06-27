@@ -1,0 +1,3 @@
+bind refs n !@git branch "%(prompt Enter branch name: )"
+bind generic ^      ?git reset --soft HEAD^
+bind status a !?git commit --amend
