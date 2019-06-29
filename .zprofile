@@ -91,9 +91,6 @@ alias dc='docker-compose'
 # bundle exec
 alias be='bundle exec'
 
-# rails new
-alias rn='be rails new --database=postgresql -MCSJ --skip-turbolinks'
-
 # search repository with ghq and peco
 function peco-src () {
   local selected_dir=$(ghq list -p | peco --query "$LBUFFER")
