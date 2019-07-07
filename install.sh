@@ -14,8 +14,6 @@ for f in .??*; do
     ln -snfv ~/src/github.com/masakazutakewaka/dotfiles/"$f" ~/
 done
 
-[ -e ~/.gitconfig.local ] || cp ~/dotfiles/.gitconfig.local.template ~/.gitconfig.local
-
 cat << END
 
 **************************************************
