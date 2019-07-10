@@ -11,7 +11,7 @@ for f in .??*; do
     [ "$f" = ".require_oh-my-zsh" ] && continue
     [ "$f" = ".gitmodules" ] && continue
 
-    ln -snfv ~/src/github.com/masakazutakewaka/dotfiles/"$f" ~/
+    ln -snfv "$THIS_DIR"/"$f" ~/
 done
 
 cat << END
