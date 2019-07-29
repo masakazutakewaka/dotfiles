@@ -42,6 +42,8 @@ alias be='bundle exec'
 alias ..="cd .."
 # diff command
 alias diff="coloddiff"
+# rubocop
+alias cop="rubocop $(git diff --cached --name-only --diff-filter=MA)"
 
 
 # search repository with ghq and peco
