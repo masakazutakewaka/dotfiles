@@ -30,6 +30,7 @@ alias gps='git push'
 alias gbl='git blame -l'
 alias gst='git stash'
 alias gpp='git stash pop'
+alias gcp='git cherry-pick'
 # docker
 alias dk="docker kill $(docker ps -q)" # kill all running containers
 alias dsc="docker rm $(docker ps -a -q)" # delete all stopped containers
