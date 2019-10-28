@@ -43,7 +43,7 @@ alias be='bundle exec'
 # cd by dir name only for ..
 alias ..="cd .."
 # diff command
-alias diff="coloddiff"
+alias diff="colordiff"
 # rubocop
 alias cop="rubocop $(git diff --cached --name-only --diff-filter=MA)"
 
