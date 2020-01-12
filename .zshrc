@@ -38,6 +38,8 @@ alias dsc="docker rm $(docker ps -a -q)" # delete all stopped containers
 alias dri="docker rmi $(docker images -q)" # delete all images
 # docker compose
 alias dc='docker-compose'
+# bundle install
+alias b='bundle install'
 # bundle exec
 alias be='bundle exec'
 # cd by dir name only for ..
